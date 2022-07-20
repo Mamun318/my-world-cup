@@ -1,0 +1,69 @@
+
+
+@media screen and (max-width: 992px) {
+.top-section{
+    width: 100%;
+    height: 500px;
+}
+.top-left{
+    width: 40%;
+    margin-top: 89px;
+}
+.top-left h1{
+    font-size: 50px;
+}
+.top-right{
+    width: 40%;
+}
+.blog-section{
+    display: flex;
+    flex-direction: column;
+    
+}
+.blog-left{
+    flex-direction: row;
+    background-color: white;
+    width: 90%;
+    height: auto;
+    margin-bottom: 40px;
+    margin-left: 45px;
+}
+.blog-left button{
+    width: 320px;
+}
+.blog-right{
+    grid-template-columns: repeat(2,1fr);
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    row-gap: 30px;
+    
+}
+.blogs{
+    width: 90%;
+}
+.mscreen{
+    display: none;
+}
+.mscreen-show{
+    display: inline;
+    margin: 20px 0px 20px 415px;
+}
+
+footer{
+    height: 350px;
+}
+hr{
+    width: 90%;
+}
+.footer-2{
+    width: 500px;
+    height: 150px;
+    row-gap: 5px;
+    flex-wrap:wrap;
+    margin-left: 231px;
+    line-height: 0px;
+}
+}
+
+
